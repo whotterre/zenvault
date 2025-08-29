@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:zenvault/features/onboarding/screens/onboarding_screen.dart';
+import 'package:zenvault/features/auth/screens/authscreen.dart';
+// import 'package:zenvault/features/onboarding/screens/onboarding_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,8 +17,10 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        fontFamily: 'PlusJakartaSans'
       ),
-      home: OnboardingScreen(),
+      // home: OnboardingScreen(),
+      home: AuthScreen(),
     );
   }
 }
